@@ -1,0 +1,95 @@
+body{
+    background-color: gray;
+}
+.titulo {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-stretch: extra-expanded;
+    line-height: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+.productos{
+    margin: auto;
+    padding: 10px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+    line-height: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+}
+.vendedor{
+    margin: auto;
+    padding: 10px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+}
+.ventas{
+    width: auto;
+    display: flex;
+    flex: 1 2 min-content;
+    flex-wrap: wrap;
+}
+p.aqua{
+    color:aqua;
+    font-size: large;
+    padding-right: 10px;
+}
+input#aqua{
+    border-color: aqua;
+    margin-left: 10px;
+}
+p.emocion{
+    font-size: large;
+    color: lightsalmon;
+    padding-right: 10px;
+}
+input#emocion{
+    border-color: lightsalmon;
+    margin-left: 10px;
+}
+p.alegria{
+    font-size: large;
+    color:gold;
+    padding-right: 10px;
+}
+input#alegria{
+    border-color: gold;
+    margin-left: 10px;
+}
+p.frescura{
+    font-size: large;
+    color: mediumspringgreen;
+    padding-right: 10px;
+}
+input#frescura{
+    border-color: mediumspringgreen;
+    margin-left: 10px;
+}
+#guardarventas{
+    margin: 10px;
+    padding: auto;
+}
+p#empleadomes{
+    margin: auto;
+    padding: 10px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+}
+.empleadomes{
+    margin: 10px;
+    padding: auto;
+}

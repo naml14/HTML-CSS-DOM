@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS+DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo">HTML + CSS + DOM</h1>
+    <h2 class="productos">Productos vendidos</h2>
+    <div class="vendedor">
+        <label for="vendedores">Seleccione el vendedor: </label>
+        <select name="vendedores" id="vendedores">
+            <option value="juana">Juana</option>
+            <option value="pedro">Pedro</option>
+        </select>
+    </div>
+    <div class="ventas">
+        <p class="aqua">Aqua: 200 usd <label for="aqua"></label><input type="number" id="aqua"></p>
+        <p class="emocion">Emoción: 180 usd <label for="emocion"></label><input type="number" id="emocion"></p>
+        <p class="alegria">Alegría: 160 usd <label for="alegria"></label><input type="number" id="alegria"></p>
+        <p class="frescura">Frescura: 150 usd <label for="frescura"></label><input type="number" id="frescura"></p>
+        <button id="guardarventas" onclick="guardarVentas()">Guardar ventas del empleado</button>
+    </div>
+    <br>
+    <div class="empleado">
+        <p id="empleadomes">Haga click en el boton para mostrar el empleado del mes</p>
+        <button class="empleadomes" onclick="empleadoMes()">Empleado del mes</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
